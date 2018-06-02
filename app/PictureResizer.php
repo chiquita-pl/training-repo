@@ -18,6 +18,10 @@ class PictureResizer
             ->save($newName, 100);
     }
 
+    /**
+     * @param Picture $picture
+     * @return string
+     */
     public function getPictureDirectory(Picture $picture)
     {
         return $picture->getPictureDirectory();
