@@ -34,5 +34,4 @@ class Picture
     {
         return ImageManagerStatic::make($this->getPictureDirectory());
     }
-
 }
